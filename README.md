@@ -179,7 +179,7 @@ https://linkedin.com/in/iamdeveloperrayhan
 
 Email
 
-[your_email@example.com](mailto:iamdeveloperrayhan@gmail.com)
+[iamdeveloperrayhan@gmail.com](mailto:iamdeveloperrayhan@gmail.com)
 
 ---
 
