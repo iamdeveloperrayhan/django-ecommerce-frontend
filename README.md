@@ -1,140 +1,199 @@
-All File list 
----------------
-[master (root-commit) 499f470] bestwebcreator.com
- 130 files changed, 27556 insertions(+)
- create mode 100644 .editorconfig
- create mode 100644 .gitattributes
- create mode 100644 .gitignore
- create mode 100644 LICENSE.txt
- create mode 100644 Product-Gallery/.gitignore
- create mode 100644 Product-Gallery/.travis.yml
- create mode 100644 Product-Gallery/LICENSE
- create mode 100644 Product-Gallery/README.md
- create mode 100644 Product-Gallery/bower.json
- create mode 100644 Product-Gallery/doc/css/foundation.css
- create mode 100644 Product-Gallery/doc/css/manual.css
- create mode 100644 Product-Gallery/doc/css/normalize.css
- create mode 100644 Product-Gallery/doc/css/prism.css
- create mode 100644 Product-Gallery/doc/images/gallery/original/01_b_car.jpg
- create mode 100644 Product-Gallery/doc/images/gallery/original/02_o_car.jpg
- create mode 100644 Product-Gallery/doc/images/gallery/original/03_r_car.jpg
- create mode 100644 Product-Gallery/doc/images/gallery/original/04_g_car.jpg
- create mode 100644 Product-Gallery/doc/images/gallery/preview/01_b_car.jpg
- create mode 100644 Product-Gallery/doc/images/gallery/preview/02_o_car.jpg
- create mode 100644 Product-Gallery/doc/images/gallery/preview/03_r_car.jpg
- create mode 100644 Product-Gallery/doc/images/gallery/preview/04_g_car.jpg
- create mode 100644 Product-Gallery/doc/images/gallery/thumbs/01_b_car.jpg
- create mode 100644 Product-Gallery/doc/images/gallery/thumbs/02_o_car.jpg
- create mode 100644 Product-Gallery/doc/images/gallery/thumbs/03_r_car.jpg
- create mode 100644 Product-Gallery/doc/images/gallery/thumbs/04_g_car.jpg
- create mode 100644 Product-Gallery/doc/images/logo.png
- create mode 100644 Product-Gallery/doc/js/foundation.min.js
- create mode 100644 Product-Gallery/doc/js/foundation/foundation.dropdown.js
- create mode 100644 Product-Gallery/doc/js/foundation/foundation.interchange.js
- create mode 100644 Product-Gallery/doc/js/foundation/foundation.js
- create mode 100644 Product-Gallery/doc/js/foundation/foundation.reveal.js
- create mode 100644 Product-Gallery/doc/js/vendor/fastclick.js
- create mode 100644 Product-Gallery/doc/js/vendor/jquery.cookie.js
- create mode 100644 Product-Gallery/doc/js/vendor/jquery.js
- create mode 100644 Product-Gallery/doc/js/vendor/modernizr.js
- create mode 100644 Product-Gallery/doc/js/vendor/placeholder.js
- create mode 100644 Product-Gallery/doc/js/vendor/prism.js
- create mode 100644 Product-Gallery/doc/manual.html
- create mode 100644 Product-Gallery/doc/manual.md
- create mode 100644 Product-Gallery/example/css/demo.css
- create mode 100644 Product-Gallery/example/css/foundation.css
- create mode 100644 Product-Gallery/example/css/normalize.css
- create mode 100644 Product-Gallery/example/css/xzoom.css
- create mode 100644 Product-Gallery/example/fancybox/README.md
- create mode 100644 Product-Gallery/example/fancybox/source/blank.gif
- create mode 100644 Product-Gallery/example/fancybox/source/fancybox_loading.gif
- create mode 100644 Product-Gallery/example/fancybox/source/fancybox_loading@2x.gif
- create mode 100644 Product-Gallery/example/fancybox/source/fancybox_overlay.png
- create mode 100644 Product-Gallery/example/fancybox/source/fancybox_sprite.png
- create mode 100644 Product-Gallery/example/fancybox/source/fancybox_sprite@2x.png
- create mode 100644 Product-Gallery/example/fancybox/source/helpers/fancybox_buttons.png
- create mode 100644 Product-Gallery/example/fancybox/source/helpers/jquery.fancybox-buttons.css
- create mode 100644 Product-Gallery/example/fancybox/source/helpers/jquery.fancybox-buttons.js
- create mode 100644 Product-Gallery/example/fancybox/source/helpers/jquery.fancybox-media.js
- create mode 100644 Product-Gallery/example/fancybox/source/helpers/jquery.fancybox-thumbs.css
- create mode 100644 Product-Gallery/example/fancybox/source/helpers/jquery.fancybox-thumbs.js
- create mode 100644 Product-Gallery/example/fancybox/source/jquery.fancybox.css
- create mode 100644 Product-Gallery/example/fancybox/source/jquery.fancybox.js
- create mode 100644 Product-Gallery/example/fancybox/source/jquery.fancybox.pack.js
- create mode 100644 Product-Gallery/example/hammer.js/1.0.5/hammer.min.js
- create mode 100644 Product-Gallery/example/hammer.js/1.0.5/jquery.hammer.min.js
- create mode 100644 Product-Gallery/example/hammer.js/README.md
- create mode 100644 Product-Gallery/example/images/gallery/original/01_b_car.jpg
- create mode 100644 Product-Gallery/example/images/gallery/original/02_o_car.jpg
- create mode 100644 Product-Gallery/example/images/gallery/original/03_r_car.jpg
- create mode 100644 Product-Gallery/example/images/gallery/original/04_g_car.jpg
- create mode 100644 Product-Gallery/example/images/gallery/preview/01_b_car.jpg
- create mode 100644 Product-Gallery/example/images/gallery/preview/02_o_car.jpg
- create mode 100644 Product-Gallery/example/images/gallery/preview/03_r_car.jpg
- create mode 100644 Product-Gallery/example/images/gallery/preview/04_g_car.jpg
- create mode 100644 Product-Gallery/example/images/gallery/thumbs/01_b_car.jpg
- create mode 100644 Product-Gallery/example/images/gallery/thumbs/02_o_car.jpg
- create mode 100644 Product-Gallery/example/images/gallery/thumbs/03_r_car.jpg
- create mode 100644 Product-Gallery/example/images/gallery/thumbs/04_g_car.jpg
- create mode 100644 Product-Gallery/example/images/logo.png
- create mode 100644 Product-Gallery/example/images/xloading.gif
- create mode 100644 Product-Gallery/example/index.html
- create mode 100644 Product-Gallery/example/js/foundation.min.js
- create mode 100644 Product-Gallery/example/js/foundation/foundation.dropdown.js
- create mode 100644 Product-Gallery/example/js/foundation/foundation.interchange.js
- create mode 100644 Product-Gallery/example/js/foundation/foundation.js
- create mode 100644 Product-Gallery/example/js/foundation/foundation.reveal.js
- create mode 100644 Product-Gallery/example/js/setup.js
- create mode 100644 Product-Gallery/example/js/vendor/fastclick.js
- create mode 100644 Product-Gallery/example/js/vendor/jquery.cookie.js
- create mode 100644 Product-Gallery/example/js/vendor/jquery.js
- create mode 100644 Product-Gallery/example/js/vendor/modernizr.js
- create mode 100644 Product-Gallery/example/js/vendor/placeholder.js
- create mode 100644 Product-Gallery/example/magnific-popup/css/magnific-popup.css
- create mode 100644 Product-Gallery/example/magnific-popup/js/magnific-popup.js
- create mode 100644 Product-Gallery/gulpfile.js
- create mode 100644 Product-Gallery/index.html
- create mode 100644 Product-Gallery/package-lock.json
- create mode 100644 Product-Gallery/package.json
- create mode 100644 Product-Gallery/src/xzoom.css
- create mode 100644 Product-Gallery/src/xzoom.js
- create mode 100644 css/404.css
- create mode 100644 css/about.css
- create mode 100644 css/contact.css
- create mode 100644 css/details.css
- create mode 100644 css/faq.css
- create mode 100644 css/hover.css
- create mode 100644 css/login.css
- create mode 100644 css/root.css
- create mode 100644 css/style.css
- create mode 100644 css/xzoom.css
- create mode 100644 css/xzoom.min.css
- create mode 100644 favicon.ico
- create mode 100644 icon.png
- create mode 100644 icon.svg
- create mode 100644 img/.gitkeep
- create mode 100644 index.html
- create mode 100644 js/app.js
- create mode 100644 js/vendor/.gitkeep
- create mode 100644 js/xzoom.min.js
- create mode 100644 package.json
- create mode 100644 page/404.html
- create mode 100644 page/about.html
- create mode 100644 page/contact.html
- create mode 100644 page/details.html
- create mode 100644 page/faq.html
- create mode 100644 page/login.html
- create mode 100644 page/signup.html
- create mode 100644 page/term-condition.html
- create mode 100644 robots.txt
- create mode 100644 site.webmanifest
- create mode 100644 test.html
- create mode 100644 webpack.common.js
- create mode 100644 webpack.config.dev.js
- create mode 100644 webpack.config.prod.js
+````markdown
+<h1 align="center">🛒 Django E-Commerce Frontend</h1>
 
-<!-- END -->
-<!-- Made With ❤ Developer Rayhan @ 2024 Coppyright -->
+<p align="center">
+  A modern and responsive eCommerce frontend built with Django Templates, HTML, CSS, Bootstrap, and JavaScript.
+</p>
 
+<p align="center">
+  <a href="your_live_demo_link">
+    <img src="https://img.shields.io/badge/Live-Demo-success?style=for-the-badge" alt="Live Demo">
+  </a>
+  <a href="https://github.com/your_username/django-ecommerce-frontend">
+    <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github">
+  </a>
+</p>
 
-View Page : https://devloperrayhan.github.io/bestwebcreator.com
+<p align="center">
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</p>
+
+---
+
+# 📖 About Project
+
+This project is a modern and responsive **E-Commerce Frontend Website** developed using**Bootstrap**, **HTML**, **CSS**, and **JavaScript**.
+
+It focuses on creating a clean shopping experience with responsive layouts and user-friendly design.
+
+> **Note:** This repository contains only the frontend (UI). Backend functionality such as authentication, database operations, payment processing, and order management is not included.
+
+---
+
+# ✨ Features
+
+- 🏠 Responsive Home Page
+- 🛍️ Product Listing Page
+- 🔍 Product Details Page
+- 🛒 Shopping Cart UI
+- ❤️ Wishlist UI
+- 👤 Login & Registration UI
+- 💳 Checkout Page UI
+- 📱 Mobile Friendly Design
+- ⚡ Fast Loading Interface
+- 🎨 Modern Clean Design
+
+---
+
+# 📸 Screenshots
+
+## Home Page
+
+![Home](https://raw.githubusercontent.com/iamdeveloperrayhan/django-ecommerce-store/refs/heads/master/Project%20Documentation/Screenshots/home.png)
+
+---
+
+## Product Page
+
+![Products](https://github.com/iamdeveloperrayhan/django-ecommerce-store/raw/master/Project%20Documentation/Screenshots/products.png)
+
+---
+
+## Product Details
+
+![Details](https://github.com/iamdeveloperrayhan/django-ecommerce-store/raw/master/Project%20Documentation/Screenshots/product-details.png)
+
+---
+
+## Cart Page
+
+![Cart](https://github.com/iamdeveloperrayhan/django-ecommerce-store/raw/master/Project%20Documentation/Screenshots/cart.png)
+
+---
+
+## Checkout Page
+
+![Checkout](https://github.com/iamdeveloperrayhan/django-ecommerce-store/raw/master/Project%20Documentation/Screenshots/checkout.png)
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology | Used |
+|------------|------|
+| Ecommerce Templates | ✅ |
+| HTML5 | ✅ |
+| CSS3 | ✅ |
+| Bootstrap 5 | ✅ |
+| JavaScript | ✅ |
+
+---
+
+# 📂 Project Structure
+
+```text
+django-ecommerce-frontend/
+
+├── Product-Gallery/
+├── css/
+├── img/
+├── js/
+├── page/
+├── responsive/
+├── selectbox-ui-main/
+├── .editorconfig
+├── .gitattributes
+├── .gitignore
+├── LICENSE.txt
+├── README.md
+├── favicon.ico
+├── icon.png
+├── icon.svg
+├── index.html
+├── package.json
+├── robots.txt
+├── site.webmanifest
+├── test.html
+├── webpack.common.js
+├── webpack.config.dev.js
+└── webpack.config.prod.js
+```
+````
+
+---
+
+# 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/iamdeveloperrayhan/django-ecommerce-frontend.git
+```
+
+Go to the project folder
+
+```bash
+cd django-ecommerce-frontend
+```
+
+---
+
+# 📌 Future Improvements
+
+* Authentication System
+* Payment Gateway
+* Order Management
+* Product Search
+* Product Filtering
+* User Dashboard
+* Admin Dashboard
+* REST API
+* Wishlist Backend
+
+---
+
+# 🌐 Live Demo
+
+👉 **https://iamdeveloperrayhan.github.io/django-ecommerce-frontend/**
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👨‍💻 Developer
+
+**Developer Rayhan**
+
+GitHub
+
+https://github.com/iamdeveloperrayhan
+
+LinkedIn
+
+https://linkedin.com/in/iamdeveloperrayhan
+
+Email
+
+[your_email@example.com](mailto:iamdeveloperrayhan@gmail.com)
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates future improvements.
+
+---
+
+<p align="center">
+Made with ❤️ by <strong>Developer Rayhan</strong>
+</p>
+```
