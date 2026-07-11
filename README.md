@@ -1,4 +1,3 @@
-````markdown
 <h1 align="center">🛒 Django E-Commerce Frontend</h1>
 
 <p align="center">
