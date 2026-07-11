@@ -120,7 +120,6 @@ django-ecommerce-frontend/
 ├── webpack.config.dev.js
 └── webpack.config.prod.js
 ```
-````
 
 ---
 
